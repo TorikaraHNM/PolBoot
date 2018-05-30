@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolTool", "PolTool\PolTool.csproj", "{59926CD3-F641-48DC-8E67-DE3A715EA503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolBootCmd", "PolBootCmd\PolBootCmd.csproj", "{678C0FDE-46B5-49A1-83A9-B289CE1E9F0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolBoot", "PolBoot\PolBoot.csproj", "{9090E4CA-B75B-4575-9490-1E073B22E22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59926CD3-F641-48DC-8E67-DE3A715EA503}.Debug|x86.ActiveCfg = Debug|x86
+		{59926CD3-F641-48DC-8E67-DE3A715EA503}.Debug|x86.Build.0 = Debug|x86
+		{59926CD3-F641-48DC-8E67-DE3A715EA503}.Release|x86.ActiveCfg = Release|x86
+		{59926CD3-F641-48DC-8E67-DE3A715EA503}.Release|x86.Build.0 = Release|x86
+		{678C0FDE-46B5-49A1-83A9-B289CE1E9F0A}.Debug|x86.ActiveCfg = Debug|x86
+		{678C0FDE-46B5-49A1-83A9-B289CE1E9F0A}.Debug|x86.Build.0 = Debug|x86
+		{678C0FDE-46B5-49A1-83A9-B289CE1E9F0A}.Release|x86.ActiveCfg = Release|x86
+		{678C0FDE-46B5-49A1-83A9-B289CE1E9F0A}.Release|x86.Build.0 = Release|x86
+		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Debug|x86.ActiveCfg = Debug|x86
+		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Debug|x86.Build.0 = Debug|x86
+		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Release|x86.ActiveCfg = Release|x86
+		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB7AA4A-E4FA-4098-8AF9-E513FD8CEB30}
+	EndGlobalSection
+EndGlobal

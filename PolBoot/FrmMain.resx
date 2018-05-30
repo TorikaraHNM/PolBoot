@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TLP_Main.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TLP_Main.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="TLP_Main.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="FLP_Selects.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLP_Selects.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="RdoJP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="RdoJP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="RdoJP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="RdoJP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RdoJP.Text" xml:space="preserve">
+    <value>&amp;JP Ver.</value>
+  </data>
+  <data name="&gt;&gt;RdoJP.Name" xml:space="preserve">
+    <value>RdoJP</value>
+  </data>
+  <data name="&gt;&gt;RdoJP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RdoJP.Parent" xml:space="preserve">
+    <value>FLP_Selects</value>
+  </data>
+  <data name="&gt;&gt;RdoJP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RdoUS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RdoUS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 3</value>
+  </data>
+  <data name="RdoUS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 15</value>
+  </data>
+  <data name="RdoUS.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RdoUS.Text" xml:space="preserve">
+    <value>&amp;US Ver.</value>
+  </data>
+  <data name="&gt;&gt;RdoUS.Name" xml:space="preserve">
+    <value>RdoUS</value>
+  </data>
+  <data name="&gt;&gt;RdoUS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RdoUS.Parent" xml:space="preserve">
+    <value>FLP_Selects</value>
+  </data>
+  <data name="&gt;&gt;RdoUS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RdoEU.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RdoEU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 3</value>
+  </data>
+  <data name="RdoEU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="RdoEU.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RdoEU.Text" xml:space="preserve">
+    <value>&amp;EU Ver.</value>
+  </data>
+  <data name="&gt;&gt;RdoEU.Name" xml:space="preserve">
+    <value>RdoEU</value>
+  </data>
+  <data name="&gt;&gt;RdoEU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RdoEU.Parent" xml:space="preserve">
+    <value>FLP_Selects</value>
+  </data>
+  <data name="&gt;&gt;RdoEU.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FLP_Selects.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="FLP_Selects.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="FLP_Selects.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 21</value>
+  </data>
+  <data name="FLP_Selects.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FLP_Selects.Name" xml:space="preserve">
+    <value>FLP_Selects</value>
+  </data>
+  <data name="&gt;&gt;FLP_Selects.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FLP_Selects.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;FLP_Selects.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FLP_Installed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLP_Installed.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="LblPOL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPOL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="LblPOL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 11</value>
+  </data>
+  <data name="LblPOL.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPOL.Text" xml:space="preserve">
+    <value>POL</value>
+  </data>
+  <data name="&gt;&gt;LblPOL.Name" xml:space="preserve">
+    <value>LblPOL</value>
+  </data>
+  <data name="&gt;&gt;LblPOL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPOL.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblPOL.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblFFXI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblFFXI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 0</value>
+  </data>
+  <data name="LblFFXI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 11</value>
+  </data>
+  <data name="LblFFXI.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblFFXI.Text" xml:space="preserve">
+    <value>FFXI</value>
+  </data>
+  <data name="&gt;&gt;LblFFXI.Name" xml:space="preserve">
+    <value>LblFFXI</value>
+  </data>
+  <data name="&gt;&gt;LblFFXI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblFFXI.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblFFXI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblRoZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblRoZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 0</value>
+  </data>
+  <data name="LblRoZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 11</value>
+  </data>
+  <data name="LblRoZ.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblRoZ.Text" xml:space="preserve">
+    <value>RoZ</value>
+  </data>
+  <data name="&gt;&gt;LblRoZ.Name" xml:space="preserve">
+    <value>LblRoZ</value>
+  </data>
+  <data name="&gt;&gt;LblRoZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblRoZ.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblRoZ.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblCoP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCoP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 0</value>
+  </data>
+  <data name="LblCoP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 11</value>
+  </data>
+  <data name="LblCoP.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblCoP.Text" xml:space="preserve">
+    <value>CoP</value>
+  </data>
+  <data name="&gt;&gt;LblCoP.Name" xml:space="preserve">
+    <value>LblCoP</value>
+  </data>
+  <data name="&gt;&gt;LblCoP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCoP.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblCoP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblToA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblToA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 0</value>
+  </data>
+  <data name="LblToA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 11</value>
+  </data>
+  <data name="LblToA.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblToA.Text" xml:space="preserve">
+    <value>ToA</value>
+  </data>
+  <data name="&gt;&gt;LblToA.Name" xml:space="preserve">
+    <value>LblToA</value>
+  </data>
+  <data name="&gt;&gt;LblToA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblToA.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblToA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblWoG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblWoG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 0</value>
+  </data>
+  <data name="LblWoG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 11</value>
+  </data>
+  <data name="LblWoG.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblWoG.Text" xml:space="preserve">
+    <value>WoG</value>
+  </data>
+  <data name="&gt;&gt;LblWoG.Name" xml:space="preserve">
+    <value>LblWoG</value>
+  </data>
+  <data name="&gt;&gt;LblWoG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblWoG.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblWoG.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblSoA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblSoA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 0</value>
+  </data>
+  <data name="LblSoA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 11</value>
+  </data>
+  <data name="LblSoA.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblSoA.Text" xml:space="preserve">
+    <value>SoA</value>
+  </data>
+  <data name="&gt;&gt;LblSoA.Name" xml:space="preserve">
+    <value>LblSoA</value>
+  </data>
+  <data name="&gt;&gt;LblSoA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblSoA.Parent" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;LblSoA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="FLP_Installed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="FLP_Installed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="FLP_Installed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 11</value>
+  </data>
+  <data name="FLP_Installed.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;FLP_Installed.Name" xml:space="preserve">
+    <value>FLP_Installed</value>
+  </data>
+  <data name="&gt;&gt;FLP_Installed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FLP_Installed.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;FLP_Installed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtPOLDir.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TxtPOLDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="TxtPOLDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 18</value>
+  </data>
+  <data name="TxtPOLDir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TxtPOLDir.Name" xml:space="preserve">
+    <value>TxtPOLDir</value>
+  </data>
+  <data name="&gt;&gt;TxtPOLDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtPOLDir.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;TxtPOLDir.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TxtFFXIDir.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TxtFFXIDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 71</value>
+  </data>
+  <data name="TxtFFXIDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 18</value>
+  </data>
+  <data name="TxtFFXIDir.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtFFXIDir.Name" xml:space="preserve">
+    <value>TxtFFXIDir</value>
+  </data>
+  <data name="&gt;&gt;TxtFFXIDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtFFXIDir.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;TxtFFXIDir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnPOL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnPOL.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BtnPOL.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BtnPOL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 95</value>
+  </data>
+  <data name="BtnPOL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 21</value>
+  </data>
+  <data name="BtnPOL.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnPOL.Text" xml:space="preserve">
+    <value>&amp;Boot POL</value>
+  </data>
+  <data name="&gt;&gt;BtnPOL.Name" xml:space="preserve">
+    <value>BtnPOL</value>
+  </data>
+  <data name="&gt;&gt;BtnPOL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPOL.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;BtnPOL.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnPOLCfg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnPOLCfg.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BtnPOLCfg.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BtnPOLCfg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 122</value>
+  </data>
+  <data name="BtnPOLCfg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 21</value>
+  </data>
+  <data name="BtnPOLCfg.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnPOLCfg.Text" xml:space="preserve">
+    <value>Boot &amp;POL Config</value>
+  </data>
+  <data name="&gt;&gt;BtnPOLCfg.Name" xml:space="preserve">
+    <value>BtnPOLCfg</value>
+  </data>
+  <data name="&gt;&gt;BtnPOLCfg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPOLCfg.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;BtnPOLCfg.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnFFXICfg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnFFXICfg.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="BtnFFXICfg.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="BtnFFXICfg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
+  </data>
+  <data name="BtnFFXICfg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 166</value>
+  </data>
+  <data name="BtnFFXICfg.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnFFXICfg.Text" xml:space="preserve">
+    <value>Boot &amp;FFXI Config</value>
+  </data>
+  <data name="&gt;&gt;BtnFFXICfg.Name" xml:space="preserve">
+    <value>BtnFFXICfg</value>
+  </data>
+  <data name="&gt;&gt;BtnFFXICfg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFFXICfg.Parent" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;BtnFFXICfg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TLP_Main.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TLP_Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TLP_Main.RowCount" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TLP_Main.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 318</value>
+  </data>
+  <data name="TLP_Main.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TLP_Main.Name" xml:space="preserve">
+    <value>TLP_Main</value>
+  </data>
+  <data name="&gt;&gt;TLP_Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TLP_Main.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TLP_Main.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TLP_Main.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="FLP_Selects" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="FLP_Installed" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TxtPOLDir" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="TxtFFXIDir" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnPOL" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnPOLCfg" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="BtnFFXICfg" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0" /&gt;&lt;Rows Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 11</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>363, 318</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>POL Boot</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

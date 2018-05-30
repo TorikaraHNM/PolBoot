@@ -1,0 +1,10 @@
+PolBootCmd <command>
+  /polboot-jp or /bj  Boot JP PlayOnline.
+  /polboot-us or /bu  Boot US PlayOnline.
+  /polboot-eu or /be  Boot EU PlayOnline.
+  /polcfg-jp  or /pj  Boot JP PlayOnline Configure.
+  /polcfg-us  or /pu  Boot US PlayOnline Configure.
+  /polcfg-eu  or /pe  Boot EU PlayOnline Configure.
+  /ffxicfg-jp or /fj  Boot JP FFXI Configure.
+  /ffxicfg-us or /fu  Boot US FFXI Configure.
+  /ffxicfg-eu or /fe  Boot EU FFXI Configure.
