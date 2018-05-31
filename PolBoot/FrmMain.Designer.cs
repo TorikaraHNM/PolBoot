@@ -75,9 +75,7 @@
             // RdoJP
             // 
             resources.ApplyResources(this.RdoJP, "RdoJP");
-            this.RdoJP.Checked = true;
             this.RdoJP.Name = "RdoJP";
-            this.RdoJP.TabStop = true;
             this.RdoJP.UseVisualStyleBackColor = true;
             this.RdoJP.CheckedChanged += new System.EventHandler(this.RdoJP_CheckedChanged);
             // 
@@ -92,7 +90,6 @@
             // 
             resources.ApplyResources(this.RdoEU, "RdoEU");
             this.RdoEU.Name = "RdoEU";
-            this.RdoEU.TabStop = true;
             this.RdoEU.UseVisualStyleBackColor = true;
             this.RdoEU.CheckedChanged += new System.EventHandler(this.RdoEU_CheckedChanged);
             // 

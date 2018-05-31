@@ -8,6 +8,7 @@ namespace PolBoot
         public FrmMain()
         {
             InitializeComponent();
+            RdoJP.Checked = true;
         }
 
         private void RdoJP_CheckedChanged(object sender, EventArgs e)
@@ -17,12 +18,12 @@ namespace PolBoot
 
         private void RdoUS_CheckedChanged(object sender, EventArgs e)
         {
-            if (RdoJP.Checked) UpdateInfo(PlatformType.US);
+            if (RdoUS.Checked) UpdateInfo(PlatformType.US);
         }
 
         private void RdoEU_CheckedChanged(object sender, EventArgs e)
         {
-            if (RdoJP.Checked) UpdateInfo(PlatformType.EU);
+            if (RdoEU.Checked) UpdateInfo(PlatformType.EU);
         }
 
         private void UpdateInfo(PlatformType type)
