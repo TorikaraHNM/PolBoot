@@ -46,7 +46,7 @@ namespace PolBoot
             }
             else
             {
-                TxtPOLDir.Text = "(POL Not Installed)";
+                TxtPOLDir.Text = Properties.Resources.PolDir_NotInstalled;
                 BtnPOL.Enabled = false;
                 BtnPOLCfg.Enabled = false;
             }
@@ -58,7 +58,7 @@ namespace PolBoot
             }
             else
             {
-                TxtFFXIDir.Text = "(FFXI Not Installed)";
+                TxtFFXIDir.Text = Properties.Resources.FfxiDir_NotInstalled;
                 BtnFFXICfg.Enabled = false;
             }
         }
@@ -113,7 +113,7 @@ namespace PolBoot
 
         private Regsvr32FailedCallbackResult Regsvr32FailedCallback(string s)
         {
-            switch (MessageBox.Show("Regsvr32 Failed: " + s, "ERROR", MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1))
+            switch (MessageBox.Show(Properties.Resources.Msg_Regsvr32FailedFilename + s, "ERROR", MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1))
             {
                 case DialogResult.Abort:
                     return Regsvr32FailedCallbackResult.Abort;
@@ -130,7 +130,7 @@ namespace PolBoot
         {
             if (!Program.PolTool[type].POL_Installed)
             {
-                MessageBox.Show("POL Not Installed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_PolNotInstalled, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -138,7 +138,7 @@ namespace PolBoot
             {
                 if (!Program.PolTool.ExecRegsvr32(type, Regsvr32FailedCallback))
                 {
-                    MessageBox.Show("Regsvr32 Failed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Properties.Resources.Msg_Err_DllRegsvr32Failed, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
             }
@@ -146,7 +146,7 @@ namespace PolBoot
             var proc = Program.PolTool.ExecPol(type);
             if (proc == null)
             {
-                MessageBox.Show("POL Boot Failed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_PolBootFailed, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -160,14 +160,14 @@ namespace PolBoot
         {
             if (!Program.PolTool[type].POL_Installed)
             {
-                MessageBox.Show("POL Not Installed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_PolNotInstalled, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             var proc = Program.PolTool.ExecPolCfg(type);
             if (proc == null)
             {
-                MessageBox.Show("POL Config Boot Failed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_PolConfigBootFailed, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -181,14 +181,14 @@ namespace PolBoot
         {
             if (!Program.PolTool[type].FFXI_Installed)
             {
-                MessageBox.Show("FFXI Not Installed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_FfxiNotInstalled, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
             var proc = Program.PolTool.ExecFfxiCfg(type);
             if (proc == null)
             {
-                MessageBox.Show("FFXI Config Boot Failed.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Properties.Resources.Msg_Err_FfxiConfigBootFailed, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {

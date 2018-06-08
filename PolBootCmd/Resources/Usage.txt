@@ -1,4 +1,4 @@
-PolBootCmd <command>
+﻿PolBootCmd <command>
   /polboot-jp or /bj  Boot JP PlayOnline.
   /polboot-us or /bu  Boot US PlayOnline.
   /polboot-eu or /be  Boot EU PlayOnline.

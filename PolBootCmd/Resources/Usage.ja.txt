@@ -1,0 +1,10 @@
+﻿PolBootCmd <command>
+  /polboot-jp または /bj  JP版PlayOnlineを起動
+  /polboot-us または /bu  US版PlayOnlineを起動
+  /polboot-eu または /be  EU版PlayOnlineを起動
+  /polcfg-jp  または /pj  JP版PlayOnline設定を起動
+  /polcfg-us  または /pu  US版PlayOnline設定を起動
+  /polcfg-eu  または /pe  EU版PlayOnline設定を起動
+  /ffxicfg-jp または /fj  JP版FFXI設定を起動
+  /ffxicfg-us または /fu  US版FFXI設定を起動
+  /ffxicfg-eu または /fe  EU版FFXI設定を起動

@@ -117,35 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FfxiDir_NotInstalled" xml:space="preserve">
+    <value>(FFXI未インストール)</value>
+  </data>
   <data name="Msg_Err_DllRegsvr32Failed" xml:space="preserve">
-    <value>ERROR: Regsvr32 Failed.</value>
+    <value>Regsvr32に失敗しました。</value>
   </data>
   <data name="Msg_Err_FfxiConfigBootFailed" xml:space="preserve">
-    <value>ERROR: FFXI Config Boot Failed.</value>
+    <value>FFXI設定の起動に失敗しました。</value>
   </data>
   <data name="Msg_Err_FfxiNotInstalled" xml:space="preserve">
-    <value>ERROR: FFXI Not Installed.</value>
+    <value>FFXIがインストールされていません。</value>
   </data>
   <data name="Msg_Err_PolBootFailed" xml:space="preserve">
-    <value>ERROR: POL Boot Failed.</value>
+    <value>POLの起動に失敗しました。</value>
   </data>
   <data name="Msg_Err_PolConfigBootFailed" xml:space="preserve">
-    <value>ERROR: POL Config Boot Failed.</value>
+    <value>POL設定の起動に失敗しました。</value>
   </data>
   <data name="Msg_Err_PolNotInstalled" xml:space="preserve">
-    <value>ERROR: POL Not Installed.</value>
+    <value>POLがインストールされていません。</value>
   </data>
   <data name="Msg_Regsvr32FailedFilename" xml:space="preserve">
-    <value>Regsvr32 Failed: </value>
+    <value>Regsvr32に失敗しました:</value>
   </data>
-  <data name="Msg_Regsvr32FailedPrompt" xml:space="preserve">
-    <value>[A]bort / [R]etry / [I]gnore ? </value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="PolBootCmd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PolBootCmd.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Usage" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Usage.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="PolDir_NotInstalled" xml:space="preserve">
+    <value>(POL未インストール)</value>
   </data>
 </root>

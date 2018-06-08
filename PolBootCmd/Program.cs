@@ -62,8 +62,8 @@ namespace PolBoot
 
         private static Regsvr32FailedCallbackResult Regsvr32FailedCallback(string s)
         {
-            Console.WriteLine("Regsvr32 Failed: " + s);
-            Console.Write("[A]bort / [R]etry / [I]gnore ? ");
+            Console.WriteLine(Properties.Resources.Msg_Regsvr32FailedFilename + s);
+            Console.Write(Properties.Resources.Msg_Regsvr32FailedPrompt);
             var res = Console.ReadKey();
             Console.WriteLine();
 

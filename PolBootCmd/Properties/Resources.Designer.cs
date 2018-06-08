@@ -115,6 +115,34 @@ namespace PolBoot.Properties {
         }
         
         /// <summary>
+        ///   Regsvr32 Failed:  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Msg_Regsvr32FailedFilename {
+            get {
+                return ResourceManager.GetString("Msg_Regsvr32FailedFilename", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   [A]bort / [R]etry / [I]gnore ?  に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Msg_Regsvr32FailedPrompt {
+            get {
+                return ResourceManager.GetString("Msg_Regsvr32FailedPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Icon PolBootCmd {
+            get {
+                object obj = ResourceManager.GetObject("PolBootCmd", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   PolBootCmd &lt;command&gt;
         ///  /polboot-jp or /bj  Boot JP PlayOnline.
         ///  /polboot-us or /bu  Boot US PlayOnline.
