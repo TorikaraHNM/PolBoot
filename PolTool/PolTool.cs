@@ -250,5 +250,25 @@ namespace PolBoot
                 return null;
             }
         }
+
+        /// <summary>
+        /// クライアントダウンロードのURLを取得します
+        /// </summary>
+        /// <param name="TargetPlatform">プラットフォーム種別</param>
+        /// <returns>URL</returns>
+        public string GetClientDownloadURL(PlatformType TargetPlatform)
+        {
+            switch (TargetPlatform)
+            {
+                case PlatformType.JP:
+                    return "http://www.playonline.com/ff11/download/media/install_win.html";
+                case PlatformType.US:
+                    return "http://www.playonline.com/ff11us/download/media/install_win.html";
+                case PlatformType.EU:
+                    return "http://www.playonline.com/ff11eu/download/media/install_win.html";
+                default:
+                    return null;
+            }
+        }
     }
 }
