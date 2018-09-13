@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolBootCmd", "PolBootCmd\Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolBoot", "PolBoot\PolBoot.csproj", "{9090E4CA-B75B-4575-9490-1E073B22E22D}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PolBootSetup", "PolBootSetup\PolBootSetup.vdproj", "{6B273D5E-2756-4E97-9F55-60D0A2422D3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,6 +29,8 @@ Global
 		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Debug|x86.Build.0 = Debug|x86
 		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Release|x86.ActiveCfg = Release|x86
 		{9090E4CA-B75B-4575-9490-1E073B22E22D}.Release|x86.Build.0 = Release|x86
+		{6B273D5E-2756-4E97-9F55-60D0A2422D3A}.Debug|x86.ActiveCfg = Debug
+		{6B273D5E-2756-4E97-9F55-60D0A2422D3A}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
