@@ -15,18 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0273D13AB50229C4012F5E27F57FD411"
-        "OwnerKey" = "8:_75C330EC5A694F2D8F30A3262C0A520B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0273D13AB50229C4012F5E27F57FD411"
-        "OwnerKey" = "8:_A971A03426CD40129826933580B47AA3"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_75C330EC5A694F2D8F30A3262C0A520B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,20 +27,32 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0273D13AB50229C4012F5E27F57FD411"
+        "MsmKey" = "8:_D6AF120F5D2A8FE48B5B7B5E52D7F49B"
+        "OwnerKey" = "8:_75C330EC5A694F2D8F30A3262C0A520B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_75C330EC5A694F2D8F30A3262C0A520B"
+        "MsmKey" = "8:_D6AF120F5D2A8FE48B5B7B5E52D7F49B"
+        "OwnerKey" = "8:_A971A03426CD40129826933580B47AA3"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A971A03426CD40129826933580B47AA3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D6AF120F5D2A8FE48B5B7B5E52D7F49B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_75C330EC5A694F2D8F30A3262C0A520B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -73,6 +73,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -89,6 +105,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -110,22 +142,22 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.6.1"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
                 "AllowLaterVersions" = "11:FALSE"
-                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?linkid=863262"
                 }
             }
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0273D13AB50229C4012F5E27F57FD411"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D6AF120F5D2A8FE48B5B7B5E52D7F49B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:PolTool, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:PolTool, Version=1.0.1.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
-                    "_0273D13AB50229C4012F5E27F57FD411"
+                    "_D6AF120F5D2A8FE48B5B7B5E52D7F49B"
                     {
                     "Name" = "8:PolTool.dll"
                     "Attributes" = "3:512"
@@ -205,15 +237,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PolBoot"
-        "ProductCode" = "8:{792AB0D3-6BF3-4C1E-AB93-625AFBAEF705}"
-        "PackageCode" = "8:{19AEB293-836B-4FEB-AC0B-EEA54A53BC2B}"
+        "ProductCode" = "8:{16BADA43-F69E-4F01-8A5D-0B0D52F985CC}"
+        "PackageCode" = "8:{4945D991-1162-4367-BAD8-1B1C5CAC0492}"
         "UpgradeCode" = "8:{60785162-A986-4995-B8C8-294A4B10069F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Mitukasa"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
